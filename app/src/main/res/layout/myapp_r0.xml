@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bj">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/shape"
+            android:src="@drawable/t0" />
+
+        <TextView
+            android:id="@+id/text_r0"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:scrollbars="vertical"
+            android:text="      新蛇亚目又称游蛇亚目，是进步的蛇类，肢带已经完全消失，一些种类还进化出了毒牙和毒腺，成为高效率的捕食者。新蛇亚目包括现存的全部毒蛇和大多数无毒蛇，其分布非常广泛，世界上大多数地方均能见到。"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+    </LinearLayout>
+</LinearLayout>

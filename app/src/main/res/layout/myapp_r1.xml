@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bj">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/shape"
+            android:src="@drawable/t2" />
+
+        <TextView
+            android:id="@+id/text_r1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scrollbars="vertical"
+            android:text="      盲蛇亚目是最原始的蛇类，多具有后肢带，分布于世界各温暖地区。盲蛇亚目包括一些体型最小的蛇，很多成员身长不到15厘米，但也有少数种类体型较大。\n      盲蛇亚目从头到尾身体粗细大体一致，头尾均短，外形略似蚯蚓，多营穴居生活，食蚯蚓、白蚁等地下的各种无脊椎动物。盲蛇亚目成员全身均匀覆盖覆瓦状圆鳞，没有腹鳞的分化，眼隐于眼鳞之下。"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+    </LinearLayout>
+</LinearLayout>
